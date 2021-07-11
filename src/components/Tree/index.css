@@ -1,0 +1,67 @@
+.treeContainer {
+  list-style: none;
+  padding: 0;
+}
+
+.treeNode {
+  padding: 1rem 1.75rem;
+  border-radius: 10px;
+}
+
+.treeNode:hover {
+  background-color: #f5fafe;
+}
+
+.treeNodeContent {
+  padding: 1rem 0.25rem;
+}
+
+.treeNodeContent-child {
+  padding: 1rem 1.75rem;
+}
+
+.treeToggler.active {
+  transform: rotate(90deg);
+}
+
+.content {
+  padding: 0 1.25rem;
+}
+
+.treeToggler {
+  padding: 0 0.5rem;
+  cursor: pointer;
+  user-select: none;
+}
+
+.evenStyle {
+  background-color: #fafbfd;
+}
+
+.oddStyle {
+  background-color: #ffffff;
+}
+
+ol.children {
+  list-style: none;
+  margin: 0;
+  padding-left: 2rem;
+  position: relative;
+}
+
+ol.children:before {
+  content: "";
+  width: 2px;
+  background: #eaeef0;
+  position: absolute;
+  left: 3.75rem;
+  top: -0.75rem;
+  height: calc(100% + 0.75rem);
+}
+
+.horizontalLine {
+  content: "";
+  width: 20px;
+  background: #eaeef0;
+  height: 2px;
+}

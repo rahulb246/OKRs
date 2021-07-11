@@ -1,0 +1,38 @@
+.App {
+  font-family: sans-serif;
+  background-color: white;
+  border-radius: 15px;
+  margin: 1.5rem;
+}
+
+iframe {
+  display: none;
+}
+
+body {
+  background-color: #f0f7fd;
+}
+
+.inline {
+  display: inline;
+}
+
+.flex {
+  display: flex;
+}
+
+.flexColumn {
+  flex-direction: column;
+}
+
+.inlineFlex {
+  display: inline-flex;
+}
+
+.alignCenter {
+  align-self: center;
+}
+
+.justifyContent {
+  text-align: center;
+}
