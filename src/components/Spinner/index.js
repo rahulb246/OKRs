@@ -1,7 +1,7 @@
 import "./index.css";
 
-const Loader = () => {
+const Spinner = () => {
   return <div className="loader"></div>;
 };
 
-export default Loader;
+export default Spinner;
